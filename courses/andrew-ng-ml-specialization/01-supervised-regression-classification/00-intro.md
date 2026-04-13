@@ -1,4 +1,4 @@
-# Supervised learning — introduction
+# Supervised learning - introduction
 
 Notes from **Course 1** of Andrew Ng’s Machine Learning Specialization: what ML is, where it shows up, and how **supervised** learning fits in.
 
@@ -10,7 +10,7 @@ Notes from **Course 1** of Andrew Ng’s Machine Learning Specialization: what M
 
 ---
 
-## Why it matters — use cases
+## Why it matters - use cases
 
 | Area | Example |
 |------|--------|
@@ -30,7 +30,7 @@ These ideas show up across **healthcare, finance, insurance, construction, manuf
 
 ---
 
-## A classic definition — Arthur Samuel (1959)
+## A classic definition - Arthur Samuel (1959)
 
 > **Arthur Samuel (1959):** *“Field of study that gives computers the ability to learn without being explicitly programmed.”*
 
@@ -63,16 +63,22 @@ Samuel programmed the computer to play **many thousands of games against itself*
 | **Example** | House **price** from size | Tumor **benign vs malignant** from features |
 
 - **Regression:** output is on a **continuous** scale (e.g. price in dollars).
-- **Classification:** output is a **class** or **category** (e.g. benign / malignant — **two** classes → classification).
+- **Classification:** output is a **class** or **category** (e.g. benign / malignant - **two** classes → classification).
 
 ---
 
 ## Unsupervised learning
 
-**Unsupervised learning:** the **label y is not given**. The algorithm looks for **structure** — clusters, groupings, or patterns — without a provided “correct class” for each point.
+**Unsupervised learning:** the **label y is not given**. The algorithm looks for **structure** - clusters, groupings, or patterns - without a provided “correct class” for each point.
 
-**Example:** **Google News**-style **clustering** — grouping related stories even when no human labeled every article in advance.
+**Example:** **Google News**-style **clustering** - grouping related stories even when no human labeled every article in advance.
 
+### Beyond clustering
+
+**Clustering** groups **similar** data points together. Two other common unsupervised families:
+
+- **Anomaly detection:** find **unusual** or rare events. **Example:** **fraud detection** (flagging transactions that do not match normal behavior).
+- **Dimensionality reduction:** **compress** the data by representing it with **fewer numbers** (or fewer features) while keeping as much useful structure as possible.
 
 ---
 
@@ -84,3 +90,5 @@ Samuel programmed the computer to play **many thousands of games against itself*
 | **Regression** | Predict a numeric value |
 | **Classification** | Predict a discrete category |
 | **Clustering** | Group similar items (unsupervised) |
+| **Anomaly detection** | Flag unusual events or outliers (unsupervised) |
+| **Dimensionality reduction** | Represent data with fewer dimensions or numbers (unsupervised) |

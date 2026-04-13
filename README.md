@@ -1,11 +1,8 @@
-# Data-Science-and-Machine-Learning-Playground
 # 🚀 Data Science & Machine Learning Playground
 
 Welcome to my **Data Science & Machine Learning Playground**.
 
-This repository marks the beginning of a new era in my journey.
-
-After completing my academic term, I’m using this summer as an opportunity to **rebuild, strengthen, and deepen my foundations** in data science, analytics, and machine learning — with a strong focus on **real-world problem solving and interview readiness**.
+I’m using this summer as an opportunity to **rebuild, strengthen, and deepen my foundations** in data science, analytics, and machine learning - with a strong focus on **real-world problem solving and interview readiness**.
 
 ---
 
@@ -87,6 +84,14 @@ Each week focuses on a specific topic:
 
 ## 📂 Repository Structure
 
+```text
+Data-Science-and-Machine-Learning-Playground/
+├── README.md
+└── courses/
+    └── andrew-ng-ml-specialization/
+        └── 01-supervised-regression-classification/
+            └── 00-intro.md    # ML basics: definitions, supervised vs unsupervised
+```
 
 ---
 
@@ -98,7 +103,7 @@ Alongside this repository, I maintain structured notes and cheat sheets (LaTeX /
 
 ## 💡 Philosophy
 
-This is not just about learning — it’s about:
+This is not just about learning - it’s about:
 
 - Building intuition
 - Explaining concepts clearly
