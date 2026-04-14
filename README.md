@@ -24,6 +24,7 @@ This repository is designed to:
 My learning is structured across **4 core tracks**, which I will study in parallel:
 
 ### 1. 🐍 Python for Data Science
+- Tooling and workflow notes: [`python-for-data-science/`](python-for-data-science/) (e.g. [Jupyter](python-for-data-science/00-jupyter.md), [Google Colab](python-for-data-science/01-google-colab.md))
 - Data manipulation with pandas
 - Data cleaning and preprocessing
 - Exploratory data analysis (EDA)
@@ -87,10 +88,15 @@ Each week focuses on a specific topic:
 ```text
 Data-Science-and-Machine-Learning-Playground/
 ├── README.md
+├── python-for-data-science/   # Python tooling & workflow (Jupyter, Colab, pandas, envs, ...)
+│   ├── 00-jupyter.md
+│   └── 01-google-colab.md
 └── courses/
     └── andrew-ng-ml-specialization/
         └── 01-supervised-regression-classification/
-            └── 00-intro.md    # ML basics: definitions, supervised vs unsupervised
+            ├── 00-intro.md              # ML basics: supervised vs unsupervised, ...
+            ├── 01-linear-regression.md  # Model f, notation, univariate line
+            └── assets/                  # figures for course notes
 ```
 
 ---
